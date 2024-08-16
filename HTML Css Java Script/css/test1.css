@@ -1,0 +1,262 @@
+
+.Top{
+    border: 1px solid rgb(0, 0, 0);
+    border-bottom: 0;
+    display: flex;
+    background-color: #2e306d;
+   
+    
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+}
+
+.LogOut{
+    display:flex;
+    border-top: 2px solid rgb(0, 0, 0);
+    border-left: 2px solid rgb(0, 0, 0);
+    justify-content: center;
+    background-color: #888bee;
+    width: 14%;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+
+.LogOut button{
+    margin: 10px;
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    background-color: #888bee;
+}
+
+
+.con{
+    border: 1px solid rgb(0, 0, 0);
+    border-top: 0;
+    display: flex;
+    background-color: aqua;
+}
+
+.Home{
+    display: flex;
+    justify-content: center;
+    width: 14%;
+    background-color: #888bee;
+    
+}
+
+.Home p{
+    margin:10px;
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+}
+
+.Search{
+    border-top:2px solid rgb(0, 0, 0);
+    display: flex;
+    width: 14%;
+    background-color: #888bee;
+    justify-content: center;
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+}
+.Search button{
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    margin: 10px;
+    background-color: #888bee;
+    width: 100%;
+    
+}
+
+.searchBar{
+    border:2px solid rgb(0, 0, 0);
+    border-bottom: 0;
+
+    display:flex;
+    width: 72%;
+}
+
+
+.searchBar input{
+    background-color: #cbcdff;
+    width: 120%;
+}
+
+.HomeImg{
+    display:flex;
+    background-color: #2e306d;
+    width:14%;
+    justify-content: center;
+    border: 0;
+}
+
+.HomeBar{
+    border:0;
+    border-bottom: 0;
+
+    display:flex;
+    width: 72%;
+}
+
+.forms{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #000000;
+    justify-content: center;
+    background-color: #888bee;
+    margin: 10px;
+    margin-left: 0;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    width: 640px;
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.form{
+    display: flex;
+    border: 2px solid #000000;
+    flex-direction: row;
+    justify-content: center;
+    width: 14%;
+    background-color: #888bee;
+    border-left: 0;
+}
+
+
+.tabel{
+    display: flex;
+    border: 2px solid #000000;
+    flex-direction: row;
+    justify-content: center;
+    width: 14%;
+    background-color: #888bee;
+    border-left: 0;
+}
+
+.MainBackground{
+    display: flex;
+    border:1px solid black;
+    background-image: url("../../IMG/AIHOshino.jpg");
+    width:100%;
+    height:100%;
+    flex-direction: column;
+    background-repeat: no-repeat; 
+    background-size: cover;
+    border-bottom: 3px solid black;
+   
+}
+
+
+.MainBackground a{
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+}
+
+.MainBackgroundS{
+    display: flex;
+    background-color: #bdbfff;
+    width:100%;
+    flex-direction: row;
+}
+
+.MainBackgroundS h1{
+    display: flex;
+    border:2px solid black;
+    padding: 10px;
+    background-color: #7476be;
+    height: 100px;
+    width: 315px;
+}
+
+.MainBackgroundS h2{
+    display: flex;
+    border:2px solid black;
+    padding: 10px;
+    background-color: #7476be;
+    height: 100px;
+    width: 550px;
+    font-size: 2em;
+    font-weight: bold;
+    justify-content: center;
+}
+
+
+.util-form {
+    display: flex;
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+
+#FORMS p{
+    margin-top: 65px;
+    margin-left: 7px;
+}
+
+.util-form label {
+    width: 100px; 
+    margin-left: 10px;
+}
+
+.util-form p{
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: 10px;
+}
+
+.IMG{
+    display:flex;
+    justify-content: end;
+    justify-self: end;
+    justify-items: end;
+    justify-tracks: end;
+    text-justify: end;
+    -ms-text-justify: end;
+}
+
+.tables{
+    display: flex;
+    border: 2px solid #000000;
+    flex-direction: column;
+    background-color: #888bee;
+    margin: 10px;
+    margin-left: 0;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    width: 640px;
+    margin-right: 0;
+    text-align: center;
+    
+}
+
+.tables table{
+    border:1px solid black;
+}
+
+.tables th{
+    border:1px solid black;
+}
+
+.tables td{
+    border:1px solid black;
+}
+
+.tables button{
+    background-color: #888bee;
+}
+
+
+
